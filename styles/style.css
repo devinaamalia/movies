@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+:root{
+    --main: #1E1E1E;
+    --grey: #3D3D3D;
+    --yellow: #FED530;
+    --gradient: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    --font: 'DM Sans', sans-serif;
+}
+
+.bg_trans{
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.brand{
+    font-family: var(--font) !important;
+    color: var(--yellow) !important;
+}
+
+.change{
+    font-family: var(--font) !important;
+}
+
+.bg__dark{
+    background-color: var(--main);
+    min-height: 100vh;
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    background: var(--gradient);
+    width: 250px;
+}
+
+.box:hover{
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.wrap_title{
+    padding: 20px 10px;
+    font-family: var(--font);
+}
+
+.title {
+    font-size: 16px;
+    color: #fff;
+}
+
+.date{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #CCCCCC;
+}
+
+.accent {
+    background-color: var(--yellow);
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.img_overview{
+    display: inline-block
+}
+
+.text_title{
+    color: #fff;
+}
+
+.detail_box{
+    width: 70%;
+    font-family: var(--font);
+    color: #fff;
+}
