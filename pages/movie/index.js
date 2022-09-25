@@ -9,7 +9,7 @@ const Navbar = dynamic(() => import('../nav'))
 
 
 const myLoader = ({src}) => {
-    return `http://image.tmdb.org/t/p/w500${src}`
+    return `https://image.tmdb.org/t/p/w500${src}`
   }
 
 const Movie = ({data}) => {
